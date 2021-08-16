@@ -210,7 +210,7 @@ DEPENDENCIES
   rack-cors
   rails (~> 6.1.4)
   spring
-  sqlite3
+  sqlite3 (~> 1.4)
   tzinfo-data
 
 RUBY VERSION
