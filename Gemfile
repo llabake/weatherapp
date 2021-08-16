@@ -9,12 +9,16 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem 'devise'
 gem 'devise-jwt'
 gem 'rack-cors'
+gem 'httparty'
+gem "interactor-rails", "~> 2.0"
+gem 'graphql', '~> 1.12.9'
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
 group :development do
   gem 'listen', '~> 3.3'
+  gem 'graphiql-rails'
   gem 'spring'
 end
 
