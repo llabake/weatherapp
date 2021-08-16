@@ -4,7 +4,7 @@ class SearchWeather
 
 	def call()
 		@location = context.location
-		@api_key = Rails.application.credentials.open_weather[:api_key] 
+		@api_key = Rails.application.credentials[Rails.env.to_sym][:open_weather][:api_key]
 		context.result = by_location
 	end
 
