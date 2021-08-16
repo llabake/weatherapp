@@ -18,12 +18,7 @@ end
 
 group :development do
   gem 'listen', '~> 3.3'
-  gem 'graphiql-rails'
   gem 'spring'
-end
-
-group :production do
-  gem 'pg'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
